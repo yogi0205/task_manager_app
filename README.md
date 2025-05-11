@@ -15,12 +15,6 @@ A cross-platform mobile To-Do application built with **Flutter** and **Hive**, f
 
 ---
 
-## 📱 Screenshots
-
-> *(Add screenshots of your app here using `![screenshot](path)` markdown or GitHub issue links)*
-
----
-
 ## 🛠️ Tech Stack
 
 - **Flutter** & **Dart**
