@@ -92,7 +92,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.deepPurple.shade300,
       appBar: AppBar(
-        title: const Text('Simple ToDO'),
+        title: const Text('Simple ToDo'),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white,
         centerTitle: true,
@@ -174,7 +174,9 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget searchBox() {
-    return Container(
+  return Center(
+    child: Container(
+      width: MediaQuery.of(context).size.width * 0.90, // 👈 85% of screen width
       padding: const EdgeInsets.symmetric(horizontal: 15),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -202,6 +204,8 @@ class _HomePageState extends State<HomePage> {
           hintStyle: TextStyle(color: Colors.grey),
         ),
       ),
-    );
-  }
+    ),
+  );
+}
+
 }

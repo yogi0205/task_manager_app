@@ -1,4 +1,5 @@
-package com.example.temp_fix
+package com.example.dailydo
+
 
 import io.flutter.embedding.android.FlutterActivity
 
